@@ -28,7 +28,7 @@ int main(int argc, char* argv[])
 	FILE* pFile = NULL;
 	char			section_name[9] = { '0' };
 	short int		number_of_section = 0;
-	fpos_t			pos = 0;									//文件位置
+	fpos_t			pos = 0;									//内容指针
 	int				e_lfanew = 0;								//dos头e_lfanew字段
 	char			ascii_[3] = { '0' };						//将二进制数据作为字符串输出
 	char			byte_ = 0;									//PE字段值，1个字节
