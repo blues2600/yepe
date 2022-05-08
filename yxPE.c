@@ -55,7 +55,7 @@ int main(int argc, char* argv[])
 	// 打开文件
 	errno_t err = fopen_s(&pFile, file_name, "rb");
 	if (err) {
-		printf_s("The file fscanf.out was not opened\n");
+		printf_s("The file was not opened\n");
 		return -1;
 	}
 
