@@ -1,7 +1,8 @@
 # yxPE
 
 #### 介绍
-PE头解析工具，仅支持运行于 x86 和 x64 的PE格式文件，不支持Intel Itanium或其他处理器架构。
+PE头解析工具，类似于dumpbin /headers功能。
+能够解析运行于 x86 和 x64 的PE格式文件，不支持Intel Itanium或其他处理器架构。
 
 
 #### 使用说明
