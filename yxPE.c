@@ -25,7 +25,7 @@ void print_section(FILE*, int, short int, char*);				//输出PE的section信息
 int main(int argc, char* argv[])
 {
 	char			file_name[PATH_MAX] = { 0 };
-	FILE* pFile = NULL;
+	FILE*			pFile = NULL;
 	char			section_name[9] = { '0' };
 	short int		number_of_section = 0;
 	fpos_t			pos = 0;									//内容指针
